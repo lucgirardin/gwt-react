@@ -13,26 +13,26 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.6.1",
-    "babel-core": "^6.26.0",
-    "compression-webpack-plugin": "0.3.2",
-    "rimraf": "^2.3.4",
-    "style-loader": "^0.20.3",
-    "css-loader": "^0.28.11",
-    "webpack": "^4.6.0",
-    "webpack-cli": "^2.0.14"
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-core": "^6.26.3",
+    "compression-webpack-plugin": "2.0.0",
+    "rimraf": "^2.6.3",
+    "style-loader": "^0.23.1",
+    "css-loader": "^2.1.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0"
   },
   "dependencies": {
-    "react": "^16.3",
-    "react-dom": "^16.3",
-
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
     "fine-uploader": "^5.16.2",
     "fine-uploader-wrappers": "^1.0.1",
-    "react-fine-uploader": "^1.1.0",
-    "react-transition-group": "^1.x",
-    "prop-types": "^15.6.1",
-
-    "react-router": "^3.2.2"
+    "react-fine-uploader": "^1.1.1",
+    "react-transition-group": "^2.5.3",
+    "prop-types": "^15.6.2",
+    "react-router": "^4.3.1"
   }
 }
