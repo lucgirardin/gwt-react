@@ -9,13 +9,13 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
-"@blueprintjs/core@^3.11.0":
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-3.11.0.tgz#7657a4f1db9e6e3d3dbddc64867ed3ef72d9ccd9"
-  integrity sha512-efCny6krIYtaXNo9d38EFeQfLuLSn+76t94N8vdjSICeuL5pm8q8cbmypNv2BQ01TJR6juO6Ori0MBW+zf3LHw==
+"@blueprintjs/core@^3.15.0":
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-3.15.0.tgz#49ba1dfee7dcefbb527d27c0f8d6bcf1086209d4"
+  integrity sha512-znXO0UaWBJO7Nm2qEvZzURCDuogsJ9DJlIw3N2XnIi+k/c8mQ1xlvtg0TT2pS88lMG9HUEKky3b0UQaSXBw4LA==
   dependencies:
-    "@blueprintjs/icons" "^3.5.0"
-    "@types/dom4" "^2.0.0"
+    "@blueprintjs/icons" "^3.7.0"
+    "@types/dom4" "^2.0.1"
     classnames "^2.2"
     dom4 "^2.0.1"
     normalize.css "^8.0.0"
@@ -25,34 +25,34 @@
     resize-observer-polyfill "^1.5.0"
     tslib "^1.9.0"
 
-"@blueprintjs/icons@^3.5.0":
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-3.5.0.tgz#d5600b1d736367a90e9c186975dc8e6efa719f7d"
-  integrity sha512-+euHGqIgRJzcUXmtnWUp4vPY++YGA4YztSx2uzCgpTiL0BcFm+syw8yIviyjdhTqMXk8sttk4W2pEALcTJtX6A==
+"@blueprintjs/icons@^3.7.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-3.7.0.tgz#2a1907a41913773792c828a6c3ef082a1f1ebb77"
+  integrity sha512-608lQx1okOo85LNp7LyvsXWlgJjoQAiu29wULcktGuAuMmVXgueaGbMEDpuEMbu+uRlg9yqDhmk1eWm7W7R5ag==
   dependencies:
     classnames "^2.2"
     tslib "^1.9.0"
 
-"@blueprintjs/select@^3.5.0":
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/select/-/select-3.5.0.tgz#72ec09c3096ff327fb4f2e50cd95178fd9801487"
-  integrity sha512-6TQAqdShmy3cYJb/BVlZOOwxuZvUNcLxG2FO8D/n8AfZp0tcuuK3lPnKJ2lEksqKWUzGOuV6fNtX3yeVpG/LIg==
+"@blueprintjs/select@^3.8.0":
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/select/-/select-3.8.0.tgz#903cc9ab50da4cec08f559be27b7fa7f9f1560e5"
+  integrity sha512-sWWGZx/nARtxKfoFODlEQxA7HDpddGDC4uKPNMd1ZQgKazEtMkw0rFVm550K6Aoj0wp82TqqmcxHrb0VL6Epiw==
   dependencies:
-    "@blueprintjs/core" "^3.11.0"
+    "@blueprintjs/core" "^3.15.0"
     classnames "^2.2"
     tslib "^1.9.0"
 
-"@blueprintjs/table@^3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/table/-/table-3.4.0.tgz#c339d64ec50b5d8de98687bc1384c50a905ebd71"
-  integrity sha512-9NfLl34g6UxDwzhmqAffnldxlgovvo/no2oWedrEtciVskxBxTSUGCIVNUp6FsU+Z1+jnN9tWlg+8aHkEIu7Vg==
+"@blueprintjs/table@^3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/table/-/table-3.5.0.tgz#3d734af285b0e43001a37e785ccf5cd9f3eb311a"
+  integrity sha512-JnVPHfqH1ypJpq/OinvKWfvQ6nGObjxtuBeR3ZMDjCJXmqkKq+N//EmF6ksiIdi78D30ohhpOg8hKzCNVjYjyg==
   dependencies:
-    "@blueprintjs/core" "^3.11.0"
+    "@blueprintjs/core" "^3.15.0"
     classnames "^2.2"
     prop-types "^15.6.0"
     tslib "^1.9.0"
 
-"@types/dom4@^2.0.0":
+"@types/dom4@^2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/dom4/-/dom4-2.0.1.tgz#506d5781b9bcab81bd9a878b198aec7dee2a6033"
   integrity sha512-kSkVAvWmMZiCYtvqjqQEwOmvKwcH+V4uiv3qPQ8pAh1Xl39xggGEo8gHUqV4waYGHezdFw0rKBR8Jt0CrQSDZA==
@@ -3401,15 +3401,15 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dom@^16.7.0:
-  version "16.7.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.7.0.tgz#a17b2a7ca89ee7390bc1ed5eb81783c7461748b8"
-  integrity sha512-D0Ufv1ExCAmF38P2Uh1lwpminZFRXEINJe53zRAbm4KPwSyd6DY/uDoS0Blj9jvPpn1+wivKpZYc8aAAN/nAkg==
+react-dom@^16.0.11:
+  version "16.8.6"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
+  integrity sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.12.0"
+    scheduler "^0.13.6"
 
 react-fine-uploader@^1.1.1:
   version "1.1.1"
@@ -3460,15 +3460,15 @@ react-transition-group@2.x, react-transition-group@^2.2.1, react-transition-grou
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react@^16.7.0:
-  version "16.7.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.7.0.tgz#b674ec396b0a5715873b350446f7ea0802ab6381"
-  integrity sha512-StCz3QY8lxTb5cl2HJxjwLFOXPIFQp+p+hxQfc8WE0QiLfCtIlKj8/+5tjjKm8uSTlAW+fCPaavGFS06V9Ar3A==
+react@^16.4.18:
+  version "16.8.6"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
+  integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.12.0"
+    scheduler "^0.13.6"
 
 "readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.4, readable-stream@^2.0.6, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.3, readable-stream@^2.3.6, readable-stream@~2.3.6:
   version "2.3.6"
@@ -3682,10 +3682,10 @@ sax@^1.2.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-scheduler@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.12.0.tgz#8ab17699939c0aedc5a196a657743c496538647b"
-  integrity sha512-t7MBR28Akcp4Jm+QoR63XgAi9YgCUmgvDHqf5otgAj4QvdoBE4ImCX0ffehefePPG+aitiYHp0g/mW6s4Tp+dw==
+scheduler@^0.13.6:
+  version "0.13.6"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.6.tgz#466a4ec332467b31a91b9bf74e5347072e4cd889"
+  integrity sha512-IWnObHt413ucAYKsD9J1QShUKkbKLQQHdxRyw73sw4FN26iWr3DY/H34xGPe4nmL1DwXyWmSWmMrA9TfQbE/XQ==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"

@@ -28,16 +28,16 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0"
   },
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "react": "^16.4.18",
+    "react-dom": "^16.0.11",
     "fine-uploader": "^5.16.2",
     "fine-uploader-wrappers": "^1.0.1",
     "react-fine-uploader": "^1.1.1",
     "react-transition-group": "^2.5.3",
     "prop-types": "^15.6.2",
     "react-router": "^4.3.1",
-    "@blueprintjs/core": "^3.11.0",
-    "@blueprintjs/select": "^3.5.0",
-    "@blueprintjs/table": "^3.4.0"
+    "@blueprintjs/core": "^3.15.0",
+    "@blueprintjs/select": "^3.8.0",
+    "@blueprintjs/table": "^3.5.0"
   }
 }
