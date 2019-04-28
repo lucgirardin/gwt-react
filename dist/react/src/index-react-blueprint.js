@@ -7,8 +7,9 @@ import * as Blueprint from "@blueprintjs/core";
 import * as BlueprintSelect from "@blueprintjs/select";
 import * as BlueprintTable from "@blueprintjs/table";
 
-import * as ReactColor from 'react-color';
-import* as ReactMosaic from 'react-mosaic-component';
+// import * as ReactColor from 'react-color';
+import {ChromePicker} from 'react-color';
+// import * as ReactMosaic from 'react-mosaic-component';
 
 // import Blueprint from "@blueprintjs/core";
 // import {Button,Collapse,Icon,Menu,ResizeSensor,Slider,Switch,Text,Tree,FormGroup,Checkbox,MenuItem,NumericInput} from "@blueprintjs/core";
@@ -60,5 +61,5 @@ window.BlueprintTable = BlueprintTable;
 //     Button : Button
 // }
 
-window.ReactColor = ReactColor;
-window.ReactMosaic = ReactMosaic;
+window.ChromePicker = ChromePicker;
+// window.ReactMosaic = ReactMosaic;
