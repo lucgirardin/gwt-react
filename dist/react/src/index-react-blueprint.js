@@ -7,6 +7,9 @@ import * as Blueprint from "@blueprintjs/core";
 import * as BlueprintSelect from "@blueprintjs/select";
 import * as BlueprintTable from "@blueprintjs/table";
 
+import * as ReactColor from 'react-color';
+import* as ReactMosaic from 'react-mosaic-component';
+
 // import Blueprint from "@blueprintjs/core";
 // import {Button,Collapse,Icon,Menu,ResizeSensor,Slider,Switch,Text,Tree,FormGroup,Checkbox,MenuItem,NumericInput} from "@blueprintjs/core";
 // import BlueprintSelect from "@blueprintjs/select";
@@ -14,8 +17,10 @@ import * as BlueprintTable from "@blueprintjs/table";
 // import BlueprintTable from "@blueprintjs/table";
 // import {Table,Column} from "@blueprintjs/table";
 
-// import "@blueprintjs/core/lib/css/blueprint.css"
-// import "@blueprintjs/table/lib/css/table.css";
+import "@blueprintjs/core/lib/css/blueprint.css"
+// import "@blueprintjs/icons/lib/css/blueprint-icons.css";
+import "@blueprintjs/select/lib/css/blueprint-select.css";
+import "@blueprintjs/table/lib/css/table.css";
 
 //If you don't need rendering to strings comment out the following line
 import ReactDOMServer from "react-dom/server";
@@ -55,3 +60,5 @@ window.BlueprintTable = BlueprintTable;
 //     Button : Button
 // }
 
+window.ReactColor = ReactColor;
+window.ReactMosaic = ReactMosaic;
