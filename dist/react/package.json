@@ -11,7 +11,9 @@
     "build-react-component-interop": "webpack -d index=./src/index-react-component-interop.js --output-filename=./lib/gwt-react-component-interop-bundle.js",
     "build-react-component-interop:min": "webpack -p index=./src/index-react-component-interop.js --output-filename=./lib/gwt-react-component-interop-bundle.min.js",
     "build-react-blueprint": "webpack -d index=./src/index-react-blueprint.js --output-filename=./lib/gwt-react-blueprint-bundle.js",
-    "build-react-blueprint:min": "webpack -p index=./src/index-react-blueprint.js --output-filename=./lib/gwt-react-blueprint-bundle.min.js"
+    "build-react-blueprint:min": "webpack -p index=./src/index-react-blueprint.js --output-filename=./lib/gwt-react-blueprint-bundle.min.js",
+    "build-react-uifabric": "webpack -d index=./src/index-react-uifabric.js --output-filename=./lib/gwt-react-uifabric-bundle.js",
+    "build-react-uifabric:min": "webpack -p index=./src/index-react-uifabric.js --output-filename=./lib/gwt-react-uifabric-bundle.min.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -33,6 +35,7 @@
     "@blueprintjs/table": "^3.8.3",
     "fine-uploader": "^5.16.2",
     "fine-uploader-wrappers": "^1.0.1",
+    "office-ui-fabric-react": "^7.103.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.0",
     "react-color": "^2.18.0",

@@ -1,7 +1,16 @@
 ----
 yarn install
 npm install
+----
+
+----
 npm run build-react-blueprint
 npm run build-react-blueprint:min
 cp dist/lib/gwt-react-blueprint-bundle.* ~/java/macrofocus/visualization/port/react/src/main/resources/com/macrofocus/public/
+----
+
+----
+npm run build-react-uifabric
+npm run build-react-uifabric:min
+cp dist/lib/gwt-react-uifabric-bundle.* ~/java/macrofocus/visualization/port/uifabric/src/main/resources/com/macrofocus/public/
 ----
